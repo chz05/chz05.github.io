@@ -7,6 +7,5 @@ permalink: /teaching/
 
 ## Teaching
 
-* Introduction to Physics (1961--63) [Textbook here!](https://www.feynmanlectures.caltech.edu/)
-
+* TA for Computer Architecture (2023 Fall at Columbia University) 
 
