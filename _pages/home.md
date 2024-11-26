@@ -29,4 +29,6 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 I am a master student at Columbia University working in the field of Computer Architecture.
 I received my undergraduate degree in Computer Science from the University California of San Diego (UCSD) in 2023 and went on to earn my master degree from Columbia University in 2024.
 During my master study, I am advised by Prof. Tanvir Ahmed Khan, working on compiler-based simulation infrastructure research project. This work has been submitted into ISCA 2025. 
+
+
 My research interests: Hardware Accelerators, Simulation.
