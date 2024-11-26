@@ -1,8 +1,8 @@
 ---
-title: "Software"
+title: "Projects"
 layout: gridlay
 sitemap: false
-permalink: /software/
+permalink: /projects/
 ---
 
 <style>
