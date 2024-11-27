@@ -5,6 +5,35 @@ sitemap: false
 permalink: /
 ---
 
+
+<style>
+img{
+  border-radius: 10px;
+}
+iframe {
+  width: 175px;
+  display: inline;
+  vertical-align:middle;
+  <!-- margin-bottom:5px; -->
+  <!-- margin-left:5px; -->
+  <!-- border: 1px solid red; -->
+}
+.col-md-3 {
+  margin:0;
+  padding:0;
+  margin-top:10px;
+  margin-bottom:10px;
+  display:block;
+  overflow:hidden;
+  text-align:center;
+  display: table-cell;
+  height: auto;
+  float: none;
+  background:white;
+  border-radius:20px;
+  <!-- border: 1px solid black; -->
+}
+</style>
 <!-- ### Welcome!
 
 Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
@@ -32,3 +61,29 @@ During my master study, I am advised by Prof. Tanvir Ahmed Khan, working on comp
 
 
 My research interests: Hardware Accelerators, Simulation.
+
+
+
+## Selected Research:
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>TaiChu: Compiler-Based Simulation Infrastructure for Data Center Accelerators</b></h4>
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
+<!-- <a href="https://github.com" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a> -->
+<a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+
+<b>Authors:</b>
+<i>Chenyang Zhou, Chihao Yu, Tanvir Ahmed Khan</i>
+
+Data center applications' diverse and complex nature necessitates a sea of accelerators to achieve end-to-end performance acceleration. Unfortunately, state-of-the-art simulation techniques fail to model data center accelerators at scale with rapid speed and sufficient details. This paper introduces TaiChu, a compiler-based framework that facilitates fast simulation of data center accelerators at scale with comprehensive insights. TaiChu features a novel MLIR dialect for modeling accelerator placements and invocation patterns paired with a performance and energy estimation engine. Consequently, TaiChu provides detailed performance metrics and energy analysis, enabling architects to optimize speed and efficiency early in the design process. We demonstrate TaiChu's effectiveness with two case studies: (1) placement and invocation model for data center accelerators, and (2) acceleration of data restructuring and movement. For both case studies, we show that TaiChu enables rapid simulation at scale with detailed insights while also providing simulation results that closely match the results of previous work.
+
+</div>
+</div>
+</div>
+
+
+
+
+
