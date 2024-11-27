@@ -57,27 +57,27 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 I am a master student at Columbia University working in the field of Computer Architecture.
 I received my undergraduate degree in Computer Science from the University California of San Diego (UCSD) in 2023 and went on to earn my master degree from Columbia University in 2024.
-During my master study, I am advised by Prof. Tanvir Ahmed Khan, working on compiler-based simulation infrastructure research project. This work has been submitted into ISCA 2025. 
+During my master study, I am advised by Prof. Tanvir Ahmed Khan, working on compiler-based simulation infrastructure research project. This work has been submitted into ISCA 2025. I am applying for PhD programs, and I expect to graduate in Fall 2024. Please reach out to me if your are looking for PhD students.
 
 
 My research interests: Hardware Accelerators, Simulation.
 
 
 
-## Selected Research:
+### Selected Research:
 
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
-<h4><b>TaiChu: Compiler-Based Simulation Infrastructure for Data Center Accelerators</b></h4>
+<h4><b>Compiler-Based Simulation Infrastructure for Multiple Data Center Accelerators</b></h4>
 <!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
 <!-- <a href="https://github.com" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a> -->
-<a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<!-- <a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a>  -->
 
 <b>Authors:</b>
 <i>Chenyang Zhou, Chihao Yu, Tanvir Ahmed Khan</i>
 
-Data center applications' diverse and complex nature necessitates a sea of accelerators to achieve end-to-end performance acceleration. Unfortunately, state-of-the-art simulation techniques fail to model data center accelerators at scale with rapid speed and sufficient details. This paper introduces TaiChu, a compiler-based framework that facilitates fast simulation of data center accelerators at scale with comprehensive insights. TaiChu features a novel MLIR dialect for modeling accelerator placements and invocation patterns paired with a performance and energy estimation engine. Consequently, TaiChu provides detailed performance metrics and energy analysis, enabling architects to optimize speed and efficiency early in the design process. We demonstrate TaiChu's effectiveness with two case studies: (1) placement and invocation model for data center accelerators, and (2) acceleration of data restructuring and movement. For both case studies, we show that TaiChu enables rapid simulation at scale with detailed insights while also providing simulation results that closely match the results of previous work.
+Data center applications' diverse and complex nature necessitates a sea of accelerators to achieve end-to-end performance acceleration. Unfortunately, existing simulation techniques struggle to model data center accelerators at scale while maintaining rapid execution and sufficient detail. This paper introduces a compiler-based framework that enables fast simulation of data center accelerators at scale with comprehensive insights. The framework incorporates a novel MLIR dialect to model accelerator placements and invocation patterns, paired with a performance and energy estimation engine. This combination provides detailed performance metrics and energy analysis, empowering architects to optimize speed and efficiency early in the design process. We demonstrate the framework's effectiveness with two case studies: (1) a placement and invocation model for data center accelerators and (2) acceleration of data restructuring and movement. In both cases, the framework supports rapid simulation at scale with detailed insights, yielding results that align closely with previous work.
 
 </div>
 </div>
