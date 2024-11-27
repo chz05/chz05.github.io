@@ -16,4 +16,4 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 }
 </style>
 
-Our work for 
+Our work for Compiler-based simulation infrastructure for Data Center Accelerators has been submitted into ISCA 2025.
