@@ -5,10 +5,10 @@ sitemap: false
 permalink: /
 ---
 
-# Welcome to My Research
+## Welcome to My Website
 {: .display-4 .fw-bold .mb-3 .text-center}
 
-<p class="lead text-muted text-center">Exploring Computer Architecture & Hardware Acceleration</p>
+<p class="lead text-muted text-center">Exploring Computer Architecture & Compiler</p>
 
 ## About Me
 {: .text-primary .mb-4}
@@ -25,11 +25,11 @@ and expect to graduate in Fall 2024. Please reach out to me if you are looking f
 {: .text-primary .mb-3}
 
 <span class="badge bg-primary fs-6 px-3 py-2">Hardware Accelerators</span>
-<span class="badge bg-secondary fs-6 px-3 py-2">Simulation</span>
+<span class="badge bg-secondary fs-6 px-3 py-2">Simulation and Modeling</span>
 <span class="badge bg-info fs-6 px-3 py-2">Compiler Design</span>
-<span class="badge bg-success fs-6 px-3 py-2">Performance Optimization</span>
+<span class="badge bg-success fs-6 px-3 py-2">Hardware-software co-design</span>
 
-## Selected Research
+<!-- ## Selected Research
 {: .text-primary .mb-4}
 
 ### Compiler-Based Simulation Infrastructure for Multiple Data Center Accelerators
@@ -58,7 +58,7 @@ rapid simulation at scale with detailed insights, yielding results that align cl
 <span class="badge bg-light text-dark border">Compiler Design</span>
 <span class="badge bg-light text-dark border">Performance Simulation</span>
 <span class="badge bg-light text-dark border">Energy Estimation</span>
-<span class="badge bg-light text-dark border">Data Center Accelerators</span>
+<span class="badge bg-light text-dark border">Data Center Accelerators</span> -->
 
 <style>
 .hero-section {
