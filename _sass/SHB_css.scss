@@ -1,79 +1,217 @@
+// Modern white background styling with beautiful design
+
+// Global body styling
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+// Images with modern rounded corners
 img { 
-    border-radius:5%;
-}
-
-.jumbotron {
-    padding:20px; 
-    padding-bottom:7px; 
-    margin-top:22px; 
-    margin-bottom:22px;
-}
-
-.navbar {
-  margin-bottom: 20px;
-  border-bottom: 4px solid var(--secondary);
-}
-
-.btn {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.container-fluid {
-  max-width: 800px;
-}
-
-.container-footer {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 800px;
-  padding-left:  20px;
-  padding-right: 20px;
-}
-
-.well-collapse {
-  padding-left:  20px;
-  padding-right: 20px;
-  padding-top:   12px;
-  padding-bottom: 4px;
-  border-radius:  7px;
-  min-height:     1px;
-  margin-top:    15px;
-  color: black;
-  background-color: var(--gray);
-  border: 2px solid var(--gray-dark);
-  blockquote {
-    border-color: var(--gray-dark);
-    border-color: rgba(0,0,0,.15);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   }
 }
 
+// Modern jumbotron/card styling
+.jumbotron {
+  padding: 2rem;
+  margin: 2rem 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 16px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+}
 
+// Enhanced navbar styling
+.navbar {
+  margin-bottom: 0;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  
+  .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2563eb !important;
+    
+    &:hover {
+      color: #1d4ed8 !important;
+    }
+  }
+  
+  .nav-link {
+    color: #4b5563 !important;
+    font-weight: 500;
+    padding: 0.75rem 1rem !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      color: #2563eb !important;
+      background-color: #f1f5f9;
+    }
+  }
+}
+
+// Modern button styling
+.btn {
+  margin: 0.5rem 0.25rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+  
+  &.btn-primary {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    
+    &:hover {
+      background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3);
+    }
+  }
+  
+  &.btn-success {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    
+    &:hover {
+      background: linear-gradient(135deg, #047857 0%, #065f46 100%);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(5, 150, 105, 0.3);
+    }
+  }
+  
+  &.btn-info {
+    background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+    
+    &:hover {
+      background: linear-gradient(135deg, #0e7490 0%, #155e75 100%);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(8, 145, 178, 0.3);
+    }
+  }
+  
+  &.btn-danger {
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+    
+    &:hover {
+      background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(220, 38, 38, 0.3);
+    }
+  }
+}
+
+// Container styling
+.container-fluid {
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+
+.container-footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+  background-color: #f8fafc;
+  border-radius: 16px;
+  margin-top: 3rem;
+}
+
+// Modern card/well styling
+.well-collapse {
+  padding: 2rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  min-height: 1px;
+  color: #374151;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+  }
+  
+  blockquote {
+    border-left: 4px solid #2563eb;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+    color: #6b7280;
+  }
+}
+
+// Typography improvements
+h1, h2, h3, h4, h5, h6 {
+  color: #1f2937;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2563eb;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #374151;
+}
+
+// Enhanced embed containers
 .embed-container-home {
   position: relative;
-  padding: 0px;
-  margin: 0px;
-  // width: 435px;
-  // height: 150px;
+  padding: 0;
+  margin: 0;
   overflow: hidden;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url($baseurl + "/images/thumbs/3dtrain.jpeg");
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .embed-container {
   position: relative;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   width: 175px;
   overflow: hidden;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.02);
+  }
 }
-  // margin-left:7px;
-  // border: 1px solid red;
 
 .embed-container-spleen {
   height: 155px;
@@ -85,6 +223,56 @@ img {
   background-image: url($baseurl + "/images/thumbs/spleen.jpg");
 }
 
+// MathJax styling
 .MathJax_ref {
-  fill: #00bc8c!important;
+  fill: #2563eb !important;
+}
+
+// Link styling
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+}
+
+// Code styling
+code {
+  background-color: #f1f5f9;
+  color: #e11d48;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+// Responsive design improvements
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .jumbotron {
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
 }
