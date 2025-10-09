@@ -5,104 +5,60 @@ sitemap: false
 permalink: /
 ---
 
-<div class="hero-section mb-5">
-  <div class="text-center mb-4">
-    <h1 class="display-4 fw-bold mb-3">Welcome to My Research</h1>
-    <p class="lead text-muted">Exploring Computer Architecture & Hardware Acceleration</p>
-  </div>
-</div>
+# Welcome to My Research
+{: .display-4 .fw-bold .mb-3 .text-center}
+
+<p class="lead text-muted text-center">Exploring Computer Architecture & Hardware Acceleration</p>
 
 ## About Me
+{: .text-primary .mb-4}
 
-<div class="about-section mb-5">
-  <div class="row align-items-center">
-    <div class="col-md-8">
-      <p class="fs-5 mb-4">
-        I am a Master's student at <strong>Columbia University</strong> working in the field of Computer Architecture. 
-        I received my undergraduate degree in Computer Science from the University of California, San Diego (UCSD) in 2023 
-        and went on to earn my Master's degree from Columbia University in 2024.
-      </p>
-      <p class="fs-5 mb-4">
-        During my Master's study, I am advised by <strong>Prof. Tanvir Ahmed Khan</strong>, working on a compiler-based 
-        simulation infrastructure research project. This work has been submitted to ISCA 2025. I am applying for PhD programs 
-        and expect to graduate in Fall 2024. Please reach out to me if you are looking for PhD students.
-      </p>
-      
-      <div class="research-interests">
-        <h4 class="text-primary mb-3">
-          <i class="fa fa-microchip me-2"></i>Research Interests
-        </h4>
-        <div class="d-flex flex-wrap gap-2">
-          <span class="badge bg-primary fs-6 px-3 py-2">Hardware Accelerators</span>
-          <span class="badge bg-secondary fs-6 px-3 py-2">Simulation</span>
-          <span class="badge bg-info fs-6 px-3 py-2">Compiler Design</span>
-          <span class="badge bg-success fs-6 px-3 py-2">Performance Optimization</span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 text-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/Myheadshot.jpg" 
-           alt="Chenyang Zhou" 
-           class="img-fluid rounded-circle shadow-lg" 
-           style="max-width: 250px;">
-    </div>
-  </div>
-</div>
+I am a Master's student at **Columbia University** working in the field of Computer Architecture. 
+I received my undergraduate degree in Computer Science from the University of California, San Diego (UCSD) in 2023 
+and went on to earn my Master's degree from Columbia University in 2024.
+
+During my Master's study, I am advised by **Prof. Tanvir Ahmed Khan**, working on a compiler-based 
+simulation infrastructure research project. This work has been submitted to ISCA 2025. I am applying for PhD programs 
+and expect to graduate in Fall 2024. Please reach out to me if you are looking for PhD students.
+
+### Research Interests
+{: .text-primary .mb-3}
+
+<span class="badge bg-primary fs-6 px-3 py-2">Hardware Accelerators</span>
+<span class="badge bg-secondary fs-6 px-3 py-2">Simulation</span>
+<span class="badge bg-info fs-6 px-3 py-2">Compiler Design</span>
+<span class="badge bg-success fs-6 px-3 py-2">Performance Optimization</span>
 
 ## Selected Research
+{: .text-primary .mb-4}
 
-<div class="research-card">
-  <div class="card border-0 shadow-lg">
-    <div class="card-body p-4">
-      <div class="d-flex justify-content-between align-items-start mb-3">
-        <h3 class="card-title text-primary mb-0">
-          <i class="fa fa-cogs me-2"></i>
-          Compiler-Based Simulation Infrastructure for Multiple Data Center Accelerators
-        </h3>
-        <div class="badge bg-success fs-6 px-3 py-2">ISCA 2025</div>
-      </div>
-      
-      <div class="authors mb-3">
-        <h5 class="text-secondary mb-2">Authors:</h5>
-        <p class="fw-semibold text-dark mb-0">
-          <em>Chenyang Zhou, Chihao Yu, Tanvir Ahmed Khan</em>
-        </p>
-      </div>
-      
-      <div class="research-description">
-        <h5 class="text-secondary mb-3">Abstract:</h5>
-        <p class="lh-lg">
-          Data center applications' diverse and complex nature necessitates a sea of accelerators to achieve end-to-end 
-          performance acceleration. Unfortunately, existing simulation techniques struggle to model data center accelerators 
-          at scale while maintaining rapid execution and sufficient detail. 
-        </p>
-        <p class="lh-lg">
-          This paper introduces a compiler-based framework that enables fast simulation of data center accelerators at scale 
-          with comprehensive insights. The framework incorporates a novel MLIR dialect to model accelerator placements and 
-          invocation patterns, paired with a performance and energy estimation engine. This combination provides detailed 
-          performance metrics and energy analysis, empowering architects to optimize speed and efficiency early in the 
-          design process.
-        </p>
-        <p class="lh-lg mb-0">
-          We demonstrate the framework's effectiveness with two case studies: (1) a placement and invocation model for data 
-          center accelerators and (2) acceleration of data restructuring and movement. In both cases, the framework supports 
-          rapid simulation at scale with detailed insights, yielding results that align closely with previous work.
-        </p>
-      </div>
-      
-      <div class="research-tags mt-4">
-        <h6 class="text-secondary mb-2">Key Technologies:</h6>
-        <div class="d-flex flex-wrap gap-2">
-          <span class="badge bg-light text-dark border">MLIR</span>
-          <span class="badge bg-light text-dark border">Compiler Design</span>
-          <span class="badge bg-light text-dark border">Performance Simulation</span>
-          <span class="badge bg-light text-dark border">Energy Estimation</span>
-          <span class="badge bg-light text-dark border">Data Center Accelerators</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+### Compiler-Based Simulation Infrastructure for Multiple Data Center Accelerators
+{: .text-primary .mb-3}
+
+<span class="badge bg-success fs-6 px-3 py-2">ISCA 2025</span>
+**Authors:** *Chenyang Zhou, Chihao Yu, Tanvir Ahmed Khan*
+
+#### Abstract
+Data center applications' diverse and complex nature necessitates a sea of accelerators to achieve end-to-end 
+performance acceleration. Unfortunately, existing simulation techniques struggle to model data center accelerators 
+at scale while maintaining rapid execution and sufficient detail. 
+
+This paper introduces a compiler-based framework that enables fast simulation of data center accelerators at scale 
+with comprehensive insights. The framework incorporates a novel MLIR dialect to model accelerator placements and 
+invocation patterns, paired with a performance and energy estimation engine. This combination provides detailed 
+performance metrics and energy analysis, empowering architects to optimize speed and efficiency early in the 
+design process.
+
+We demonstrate the framework's effectiveness with two case studies: (1) a placement and invocation model for data 
+center accelerators and (2) acceleration of data restructuring and movement. In both cases, the framework supports 
+rapid simulation at scale with detailed insights, yielding results that align closely with previous work.
+
+#### Key Technologies
+<span class="badge bg-light text-dark border">MLIR</span>
+<span class="badge bg-light text-dark border">Compiler Design</span>
+<span class="badge bg-light text-dark border">Performance Simulation</span>
+<span class="badge bg-light text-dark border">Energy Estimation</span>
+<span class="badge bg-light text-dark border">Data Center Accelerators</span>
 
 <style>
 .hero-section {
