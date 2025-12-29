@@ -28,10 +28,7 @@ contact: >
 nav_pages:
   - name: about
   - name: publications
-  # - name: talks
   - name: research
-  # - name: projects
-  # - name: team
   - name: teaching
   - name: blogs
 
