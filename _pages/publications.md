@@ -3,7 +3,7 @@ title: "Publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/
-years: [2016, 2017, 2018, 2019, 2020, 2021]
+years: [2025]
 ---
 
 <style>
@@ -16,4 +16,10 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 }
 </style>
 
-Our work for Compiler-based simulation infrastructure for Data Center Accelerators has been submitted into ISCA 2025.
+## Publications
+
+<div class="jumbotron">
+{% bibliography --query @inproceedings[year=2025] %}
+</div>
+
+
