@@ -62,7 +62,27 @@ permalink: /publications/
   booktitle={Proceedings of the 52nd Annual International Symposium on Computer Architecture (ISCA)},
   pages={1464--1479},
   year={2025}
-}</div>
+}
+</div>
+
+</div>
+
+<div class="jumbotron">
+
+<p class="pub-title">Orders in Chaos: Enhancing Large-Scale MoE LLM Serving with Data Movement Forecasting</p>
+<p class="pub-authors">Zhongkai Yu, Yue Guan, Zihao Yu, <u>Chenyang Zhou</u>, Shuyi Pei, Yangwook Kang, Yufei Ding, Po-An Tsai</p>
+<p class="pub-venue">arXiv preprint arXiv:2510.05497, 2025</p>
+
+<a href="https://arxiv.org/abs/2510.05497" target="_blank"><button class="btn btn-primary btn-pub">arXiv</button></a>
+<button class="btn btn-danger btn-pub" onclick="toggleBibtex('bib2')">BibTeX</button>
+
+<div id="bib2" class="bibtex-box">@article{yu2025orders,
+  title={Orders in Chaos: Enhancing Large-Scale MoE LLM Serving with Data Movement Forecasting},
+  author={Yu, Zhongkai and Guan, Yue and Yu, Zihao and Zhou, Chenyang and Pei, Shuyi and Kang, Yangwook and Ding, Yufei and Tsai, Po-An},
+  journal={arXiv preprint arXiv:2510.05497},
+  year={2025}
+}
+</div>
 
 </div>
 
