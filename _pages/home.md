@@ -13,11 +13,11 @@ permalink: /
 ## About Me
 {: .text-primary .mb-4}
 
-I was a Master's student at **Columbia University** working in the field of Computer Architecture. 
+I was a Master's student at **Columbia University** working in the field of Computer Architecture and Compilers. 
 I received my undergraduate degree in Computer Science from the University of California, San Diego (UCSD) in 2023.
 
 During my Master's study, I was advised by **Prof. Tanvir Ahmed Khan**, working on a compiler-based 
-simulation infrastructure research project. This work has been submitted to ISCA 2025. I am applying for PhD programs for Fall 2026. Please reach out to me if you are looking for PhD students.
+simulation infrastructure research project. I also work closely with **Prof. Jian Weng** in KAUST and **Prof. Yufei Ding** in UCSD. I am applying for PhD programs for Fall 2026. Please reach out to me if you are looking for PhD students.
 
 ### Research Interests
 {: .text-primary .mb-3}
