@@ -4,6 +4,10 @@
 
 $baseurl: "{{ site.url }}{{ site.baseurl }}";
 
+// Override primary color to dark black
+$primary: #1a1a1a;
+$link-color: #1a1a1a;
+
 // @import "variables";
 @import "bootstrap/bootstrap";
 // @import "syntax-highlighting";
