@@ -63,17 +63,6 @@ I also work closely with **Prof. Yufei Ding** at UCSD.
   </li>
   <li>
     <div class="row">
-      <div class="col col-sm-2 abbr"><abbr class="badge rounded w-100">ISCA'25</abbr></div>
-      <div class="col-sm-8">
-        <div class="title">Assassyn: A Unified Abstraction for Architectural Simulation and Implementation</div>
-        <div class="author">Jian Weng, Boyang Han, Derui Gao, Ruijie Gao, Wanning Zhang, An Zhong, Ceyu Xu, Jihao Xin, Yangzhixin Luo, Lisa Wu Wills, et al.</div>
-        <div class="periodical"><em>Proceedings of the 52nd Annual International Symposium on Computer Architecture</em>, 2025</div>
-        <div class="links"><a href="{{ site.url }}{{ site.baseurl }}/publications/" class="btn btn-sm z-depth-0" role="button">Details</a></div>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div class="row">
       <div class="col col-sm-2 abbr"><abbr class="badge rounded w-100">ISCA'26</abbr></div>
       <div class="col-sm-8">
         <div class="title">Patterns behind Chaos: Forecasting Data Movement for Efficient Large-Scale MoE LLM Inference</div>
