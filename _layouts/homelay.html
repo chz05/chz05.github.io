@@ -2,18 +2,37 @@
 layout: default
 ---
 
-<div class="container-fluid">
-  <div class="row g-4">
-    <div id="homeid" class="col-lg-8 col-md-12">
-      <div class="bg-white rounded-3 shadow-sm p-4">
-        {{ content }}
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      <span class="font-weight-bold">Chenyang</span> Zhou
+    </h1>
+    <p class="desc"></p>
+  </header>
+
+  <article>
+    {% for member in site.data.pi limit:1 %}
+      <div class="profile float-right">
+        <figure>
+          <img
+            src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}"
+            class="img-fluid z-depth-1 rounded"
+            width="100%"
+            height="auto"
+            alt="{{ member.name }}"
+            loading="eager"
+          >
+        </figure>
+        <div class="contact-icons">
+          {% if member.email %}<a href="mailto:{{ member.email }}" title="email"><i class="fa fa-envelope"></i></a>{% endif %}
+          {% if member.github %}<a href="{{ member.github }}" title="GitHub" target="_blank"><i class="fa fa-github"></i></a>{% endif %}
+          {% if member.cv %}<a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" title="CV" target="_blank"><i class="ai ai-cv"></i></a>{% endif %}
+        </div>
       </div>
+    {% endfor %}
+
+    <div class="clearfix">
+      {{ content }}
     </div>
-    
-    <div id="newsid" class="col-lg-4 col-md-12">
-      <div class="bg-white rounded-3 shadow-sm p-4 h-100">
-        {% include sidebar.html %}
-      </div>
-    </div>
-  </div>
+  </article>
 </div>

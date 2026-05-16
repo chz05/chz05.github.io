@@ -3,23 +3,25 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<nav class="navbar sticky-top navbar-expand-md navbar-light bg-white shadow-sm border-bottom">
-    <div class="container-fluid">
-        <a class="navbar-brand fw-bold text-primary" href="{{ site.url }}{{ site.baseurl }}/">
-            <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" width="32" height="32" style="margin-right:8px" class="d-inline-block align-top" alt="">
-            {{ site.title | escape }}
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+<header>
+<nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title | escape }}</a>
+        <button class="navbar-toggler collapsed ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor02">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-item nav-link fw-semibold" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
-                {% for page in site.nav_pages %}       
-                    <a class="nav-item nav-link fw-semibold" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
+        <div class="collapse navbar-collapse text-end" id="navbarColor02">
+            <ul class="navbar-nav ms-auto flex-nowrap">
+                <li class="nav-item"><a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">About</a></li>
+                {% for page in site.nav_pages %}
+                  {% unless page.name == "about" %}
+                    <li class="nav-item"><a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a></li>
+                  {% endunless %}
                 {% endfor %}
-            </div>
+            </ul>
         </div>
     </div>
 </nav>
+<progress id="progress" value="0"></progress>
+</header>

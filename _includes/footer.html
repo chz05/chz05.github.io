@@ -1,40 +1,6 @@
-<footer class="bg-white border-top mt-5">
-  <div class="container-footer">
-    <div class="row g-4 py-5">
-      <div class="col-lg-4 col-md-6">
-        <h5 class="text-primary mb-3">
-          <i class="fa fa-user me-2"></i>About
-        </h5>
-        <div class="text-muted lh-lg">
-          {{ site.affiliation }}
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <h5 class="text-primary mb-3">
-          <i class="fa fa-envelope me-2"></i>Contact
-        </h5>
-        <div class="text-muted lh-lg">
-          {{ site.contact }}
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-12">
-        <h5 class="text-primary mb-3">
-          <i class="fa fa-map-marker me-2"></i>Location
-        </h5>
-        <div class="text-muted lh-lg">
-          {{ site.location }}
-        </div>
-      </div>
-    </div>
-    
-    <div class="border-top pt-4 text-center">
-      <p class="text-muted mb-0">
-        &copy; {{ "now" | date: "%Y" }} {{ site.title | escape }} • 
-        <span class="text-primary">Computer Architecture Research</span>
-      </p>
-    </div>
+<footer class="fixed-bottom" role="contentinfo">
+  <div class="container mt-0">
+    &copy; {{ "now" | date: "%Y" }} {{ site.title | escape }}.
   </div>
 </footer>
 
