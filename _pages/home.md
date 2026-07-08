@@ -56,7 +56,7 @@ I also work closely with **Prof. Yufei Ding** at UCSD.
       <div class="col-sm-8">
         <div class="title">AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving</div>
         <div class="author">Zhongkai Yu, Haotian Ye, <u>Chenyang Zhou</u>, Ohm Rishabh Venkatachalam, Zaifeng Pan, Zhengding Hu, Junsung Kim, Won Woo Ro, Po-An Tsai, Shuyi Pei, Yangwook Kang, Yufei Ding</div>
-        <div class="periodical"><em>arXiv preprint arXiv:2604.26103</em>, 2026</div>
+        <div class="periodical"><em>MICRO 2026</em>, 2026</div>
         <div class="links"><a href="https://arxiv.org/abs/2604.26103" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a></div>
       </div>
     </div>
@@ -68,7 +68,7 @@ I also work closely with **Prof. Yufei Ding** at UCSD.
         <div class="title">Patterns behind Chaos: Forecasting Data Movement for Efficient Large-Scale MoE LLM Inference</div>
         <div class="author">Zhongkai Yu, Yue Guan, Zihao Yu, <u>Chenyang Zhou</u>, Shuyi Pei, Yangwook Kang, Yufei Ding, Po-An Tsai</div>
         <div class="periodical"><em>Proceedings of the 53rd Annual International Symposium on Computer Architecture</em>, 2026</div>
-        <div class="periodical"><strong>Best Paper Candidate</strong></div>
+        <div class="periodical"><strong>Best Paper</strong></div>
         <div class="links"><a href="https://arxiv.org/abs/2510.05497" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a></div>
       </div>
     </div>
