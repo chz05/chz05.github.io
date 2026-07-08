@@ -52,7 +52,7 @@ I also work closely with **Prof. Yufei Ding** at UCSD.
   </li>
   <li>
     <div class="row">
-      <div class="col col-sm-2 abbr"><abbr class="badge rounded w-100">preprint</abbr></div>
+      <div class="col col-sm-2 abbr"><abbr class="badge rounded w-100">MICRO 2026</abbr></div>
       <div class="col-sm-8">
         <div class="title">AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving</div>
         <div class="author">Zhongkai Yu, Haotian Ye, <u>Chenyang Zhou</u>, Ohm Rishabh Venkatachalam, Zaifeng Pan, Zhengding Hu, Junsung Kim, Won Woo Ro, Po-An Tsai, Shuyi Pei, Yangwook Kang, Yufei Ding</div>
