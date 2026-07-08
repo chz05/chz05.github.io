@@ -56,7 +56,7 @@ I also work closely with **Prof. Yufei Ding** at UCSD.
       <div class="col-sm-8">
         <div class="title">AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving</div>
         <div class="author">Zhongkai Yu, Haotian Ye, <u>Chenyang Zhou</u>, Ohm Rishabh Venkatachalam, Zaifeng Pan, Zhengding Hu, Junsung Kim, Won Woo Ro, Po-An Tsai, Shuyi Pei, Yangwook Kang, Yufei Ding</div>
-        <div class="periodical"><em>MICRO 2026</em>, 2026</div>
+        <div class="periodical"><em>IEEE/ACM International Symposium on Microarchitecture</em>, 2026</div>
         <div class="links"><a href="https://arxiv.org/abs/2604.26103" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a></div>
       </div>
     </div>
